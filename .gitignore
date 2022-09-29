@@ -1,3 +1,6 @@
+amazon_reviews_us_Health_Personal_Care_v1_00.tsv
+vine_table.csv
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
