@@ -1,5 +1,3 @@
-# Amazon_Vine_Analysis
-
 # Purpose of this project:
 To use PySpark, PostgresSQL, Pandas and AWS service to determine if the reviews for Health Personal Care category have any bias between vine (paid) program and non-vine program.
 
