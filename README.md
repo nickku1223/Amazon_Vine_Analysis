@@ -1,5 +1,5 @@
 # Purpose of this project:
-To use PySpark, PostgresSQL, Pandas and AWS service to determine if the reviews for Health Personal Care category have any bias between vine (paid) program and non-vine program.
+To use PySpark, PostgresSQL, Pandas and, AWS service to determine if the reviews for the Health Personal Care category have any bias between vine (paid) program and non-vine program.
 
 # Result
 - How many Vine reviews and non-Vine reviews were there?
@@ -16,7 +16,7 @@ There are 120,825 reviews are from the non-Vine program.
 
 ![Total Review Numbers](Images/review_numbers.png)
 
-After we filtered with reviews that has equal or greater than 20 votes of helpful_votes and the helpful_votes has equal or greater than 50% of rates, we got the following results for the counts of reviews:
+After we filtered with reviews that have equal or greater than 20 votes of helpful_votes and the helpful_votes have equal or greater than 50% of rates, we got the following results for the counts of reviews:
 Total Review: 121,322
 Total Vine Review: 497
 Total non-Vine Review: 120,825
@@ -33,6 +33,6 @@ There are about 44% of five-stars review for the Vine program.
 There are about 62% of five-stars review for the non-Vine program.
 
 # Summary
-From the results we can see, after we applied the filters for the reviews, total reviews for the Vine program only has 497 reviews out of 121,322 of total reviews, which is a very small number. And there are about 44% of five-stars review out of 497 reviews for the Vine program v.s. 62% of five-star review out of 120.825 reviews for the non-Vine program. The five-stars reviews from non-vine program are overwhelmingly higher than the Vine program. From the results I can't see the signs of bias reviews from the Vine program.
+From the results we can see, after we applied the filters for the reviews, the total reviews for the Vine program only have 497 reviews out of 121,322 of total reviews, which is a very small number. And there are about 44% of five-stars review out of 497 reviews for the Vine program v.s. 62% of five-star reviews out of 120.825 reviews for the non-Vine program. The five-star reviews from non-vine program are overwhelmingly higher than the Vine program. From the results, I can't see the signs of biased reviews from the Vine program.
 
-For furthur analysis, we can see how many of the Vine five-stars reviews are verified purchase and how many of the non-Vine five-stars reviews are verified purchase. Or if the number of helpful_votes for vine program reviews are higher than non-Vine program reviews.
+For further analysis, we can see how many of the Vine five-star reviews are verified purchases and how many of the non-Vine five-star reviews are verified purchases. Or if the number of helpful_votes for vine program reviews are higher than non-Vine program reviews.
